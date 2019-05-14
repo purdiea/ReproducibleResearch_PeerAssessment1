@@ -4,7 +4,6 @@
 .Ruserdata
 .DS_store
 *.csv
-/analysis_files
 /analysis_cache
 /instructions_fig
 /doc
