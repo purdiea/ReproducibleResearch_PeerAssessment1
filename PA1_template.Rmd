@@ -19,6 +19,9 @@ Loading data.  Set cache=TRUE so only runs once.
 df <- read.csv("activity.csv",stringsAsFactors = F)
 head(df)
 summary(df)
+
+# Also could have done the following to open the zipped file directly:
+# df <- read.csv(unz('activity.zip', 'activity.csv'))
 ```
 
 Reformatting date variable
